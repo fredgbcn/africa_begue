@@ -1,0 +1,38 @@
+html{
+    background-image: url(./components/images/Background_home.svg);
+    background-attachment: fixed;
+        background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: #787878;
+}
+h1{
+    text-align: center;
+
+}
+h5{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:620px){
+    html{
+        background-image: url(./components/images/mobile_background.svg);
+    }
+}
+@media screen and (max-width:1090px){
+    html{
+        background-image: url(./components/images/mobile_background.svg);
+    }
+    .body_contact,
+    .body_cours,
+    .body_about,
+    .body_solidaire,
+    .body_events
+    {
+        margin: auto;
+        width:90%;
+        max-width: 950px;
+    }
+}

@@ -1,0 +1,120 @@
+.body_events{
+    margin: auto;
+    width:60%;
+    max-width: 950px;
+}
+.banniere_longue{
+    background-image: url('./images/interieur_long.png');
+    margin: auto;
+    width: 100%;
+min-height: 200px;
+    background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+.body_events p{
+    text-align: center;
+}
+.events_list{
+    display: flex;
+    justify-content: space-between;
+    background: #fefefe;
+    box-shadow: inset 5px -5px 3px #e2e2e2,
+            inset -5px 5px 3px #ffffff;
+    margin-bottom: 10px;
+}
+.events_list p{
+    padding: 5px;
+    text-align: left;
+    font-weight: bolder;
+}
+.p1{
+    width: 20%;
+    height: 80px;
+    font-size:larger;
+    margin-top: 16px;
+
+}
+.p2{
+    height: 50px;
+    margin-bottom: 0;  
+
+}
+.p3{
+    height: 80px;
+    width: 20%;
+
+}
+
+.boutons{
+    text-align: center;
+    margin-top: 0;
+}
+.content_buttons{
+    width: 55%;
+    margin-left: 4%;
+}
+.boutons a{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.resa{
+    background-color: #E01B1B;
+    margin-right: 30px;
+}
+.info{
+    background-color: #6751F0;
+}
+
+.content_buttons a{
+    color: white;
+    font-weight: bolder;
+    border-radius: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+@media screen and (max-width:820px){
+    .p1, .p3{
+        height:120px;
+    }
+    .p2{
+        height:90px;
+    }
+    .resa{
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+    .info{
+        margin-bottom: 8px;
+    }
+    .boutons{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:650px){
+    .events_list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .events_list p{
+        text-align: center;
+    }
+    .p1, .p2, .p3{
+        width: 90%;
+        margin: 0;
+    }
+    .p1, .p3{
+        height:30px;
+        text-align: center;
+    }
+    .content_buttons{
+        width: 90%;
+    }
+    .p2{
+        height:70px;
+        width: 100%;
+    }
+}

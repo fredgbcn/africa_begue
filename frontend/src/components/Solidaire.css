@@ -1,0 +1,116 @@
+.body_solidaire{
+    margin: auto;
+    width:80%;
+    max-width: 950px;
+}
+
+
+.village_grp{
+    display:flex;
+    width: 100%;
+    min-height: 275px;
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+
+}
+.village_1{
+    background-image: url('./images/village_ciel.png');
+    width: 61%;
+    margin-left: 15px;
+}
+.village_2{
+    background-image: url('./images/preau.png');
+    width: 38%;
+}
+
+.banniere_dauphins{
+    display:flex;
+    width: 100%;
+    min-height: 200px;
+}
+.image1_dauphins{
+background-image: url('./images/dauphins_entrainement.png');
+width: 37%;
+}
+.image2_dauphins{
+    background-image: url('./images/logo_dauphins.png');
+    width: 27%;
+}
+.image3_dauphins{
+    background-image: url('./images/conversation.png');
+    width: 36%;
+}
+
+.besoin_img_txt{
+    display:flex;
+    width: 100%;
+}
+.besoin_img{
+    background-image: url('./images/besoins.png');
+    width: 100% ;
+    min-height: 180px;
+    background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.besoin_img_txt p{
+    padding-left: 20px;
+}
+.secours_img_txt{
+    display:flex;
+    width: 100%;
+}
+.secours_img{
+
+    background-image: url('./images/secours.png');
+    width: 80% ;
+    min-height: 180px;
+    background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+.secours_img_txt p{
+    padding-left: 30px;
+
+
+}
+@media screen and (max-width: 875px){
+    .village_grp{
+        flex-direction:column;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .village_1, .village_2{
+        min-height: 30vh;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+            background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+    }
+    .banniere_dauphins{
+        flex-direction: column;
+
+    }
+    .image1_dauphins,
+    .image2_dauphins,
+    .image3_dauphins{
+        width: 100%;
+        height: 20vh;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+    }
+    .besoin_img_txt,
+    .secours_img_txt{
+        flex-direction: column;
+        align-items: center;
+    }
+}

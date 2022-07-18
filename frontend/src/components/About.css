@@ -1,0 +1,66 @@
+.body_about{
+    margin: auto;
+    width:60%;
+    max-width: 950px;
+}
+.baniere_about{
+    display:flex;
+width: 100%;
+min-height: 200px;
+}
+
+.baniere_about div{
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.parc{
+    background-image: url("./images/parc.jpg");
+    width:42%;
+}
+.interieur{
+    background-image: url("./images/interieur.jpg");
+    width: 41%;
+}
+.bamba{
+    background-image: url("./images/Bamba.jpg");
+    width: 16%;
+}
+span{
+    font-weight: bolder;
+}
+.boxes{
+    display: flex;
+    margin-top: 5px;
+
+}
+.box1, .box2, .box3, .box4{
+    opacity: 60%;
+    width: 23%;
+    margin-right: 2%;
+    padding-left:5px;
+    border-radius: 35px;
+    color: #000000;
+    background: linear-gradient(225deg, #ffffff, #e5e5e5);
+    box-shadow:  -5px 5px 3px #cccccc,
+                 5px -5px 3px #ffffff;
+}
+.box1:active, .box2:active, .box3:active, .box4:active{
+    border-radius: 35px;
+background: #fefefe;
+box-shadow: inset -5px 5px 3px #e2e2e2,
+            inset 5px -5px 3px #ffffff;
+            color: #787878;
+}
+@media screen and (max-width:780px){
+    .boxes{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .box1, .box2, .box3, .box4{
+        width:85%;
+        margin-bottom: 10px;
+    }
+}

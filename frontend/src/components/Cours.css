@@ -1,0 +1,81 @@
+.body_cours{
+    margin: auto;
+    width:60%;
+    max-width: 950px;
+}
+.images_cours{
+    min-height: 422px;
+    display: flex;
+}
+.images_cours div{
+    background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+.cours1{
+    background-image: url('./images/stage_interieur.png');
+    width: 72%;
+}
+.cours_2images{
+    width: 28%;
+}
+.cours2{
+    background-image: url('./images/parc_dos.png');
+    height: 39%;
+}
+.cours3{
+    background-image: url('./images/jambe_danseurs.png');
+    height:61%;
+
+}
+.resa{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.body_cours .resa{
+    color: white;
+    font-weight: bolder;
+    border-radius: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+@media screen and (max-width:1090px){
+    .images_cours{
+        flex-direction: column;
+        align-items: center;
+}
+    .cours1, 
+    .cours2,
+    .cours3{
+        height: 300px;
+        width:100%;
+    }
+    .cours_2images{
+        display: flex;
+        width: 70%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:850px){
+    .cours1{
+        height: 280px;
+    }
+    .cours2,
+    .cours3{
+        height: 150px;
+    }
+}
+@media screen and (max-width:500px){
+    .cours1{
+        height: 150px;
+    }
+    .cours2,
+    .cours3{
+        height: 80px;
+    }
+    .images_cours{
+        min-height: auto;
+    }
+}

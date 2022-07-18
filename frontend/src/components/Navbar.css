@@ -1,0 +1,128 @@
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 60%;
+    width: 70%;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+#menu_mobile, #link{
+  display: none;
+}
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: #1E1E1E;
+    opacity: 100%;
+}
+nav a:focus{
+    color: #5B44EE;
+}
+
+
+@media screen and (max-width:1090px){
+    nav{
+        width:100%
+    }
+
+}
+@media screen and (max-width:780px){
+    nav h4{
+    display:none;
+    }
+    #menu_mobile, #link{
+      display:flex;
+      flex-direction: column;
+      position: absolute;
+      left:5%;
+    }
+    #menu_mobile{
+      margin-top: 50px;
+    }
+    nav{
+      opacity: 90%;
+    }
+    nav{
+      height: 50px;
+      font-weight: bolder;
+      color: #7a7676;
+
+    }
+
+.burger_closed, .burger_open {
+  width:30px;
+  height:4px;
+  background:#7a7676;
+  border-radius: 5px;
+  display:inline-block;
+  position:relative;
+  border-radius: 5px;
+}
+.burger_closed::before, 
+.burger_closed::after,
+.burger_open::after,
+.burger_open::before {
+  content:'';
+  width:30px;
+  height:4px;
+  border-radius: 5px;
+  background:#7a7676;
+  position:absolute;
+  transform-origin: center;
+  transition: all 0.3s ease;
+}
+.burger_closed::after,
+.burger_open::after{
+  margin-bottom: 3px;
+}
+
+.burger_closed::before {
+  top:-7px;
+}
+.burger_closed::after {
+  top:7px;
+}
+
+.burger_open {
+    background:white;
+  }
+  .burger_open::before {
+    transform: rotate(45deg);
+    top:0px;
+  }
+  .burger_open::after {
+    transform: rotate(-45deg);
+    top:0px;
+  }
+  
+  header {
+    position:relative;
+    max-width:500px;
+  }
+  .ul_closed, .ul_open {
+    background:rgb(255, 255, 255);
+    position:absolute;
+    margin-top: 25px;
+    width:100%;
+    left:0;
+    padding:10px 0;
+    transform:scaleY(0);
+    transform-origin:center top;
+    transition:all 0.3s ease;
+  }
+ .ul_open {
+    transform:scaleY(1);
+  }
+  nav ul li {
+    padding:10px 0;
+    text-align:center;
+    list-style-type: none;
+  }
+  li a:focus{
+      color: #5B44EE;
+
+  }
+}

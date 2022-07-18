@@ -1,0 +1,39 @@
+.body_footer{
+    width:100%;
+    max-width: 950px;
+    display: flex;
+    max-height: 100px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.body_footer h5{
+    margin: 0;
+    text-align: left;
+}
+.logo_footer{
+    background-image: url('./images/logo1.svg');
+    margin-right: 20px;
+    min-width: 80px;
+}
+.footer_email_logos{
+    display: flex;
+}
+
+.a_fb, .a_insta, .logo_footer{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.a_fb{
+    background-image: url('./images/fb.svg');
+    min-width: 40px;
+}
+.a_insta{
+    background-image: url('./images/insta.svg');
+    min-width: 40px;
+}
+.footer_txt p{
+    margin: 0;
+    min-width: 40px;
+
+}

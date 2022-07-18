@@ -1,0 +1,31 @@
+.body_contact{
+    margin: auto;
+    width:60%;
+    max-width: 950px;
+}
+.logo_email{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.logo_email img{
+    width:20vh;
+    margin-right: 20px;
+}
+
+.txt_email{
+    margin-top:20px;
+}
+@media screen and (max-width: 500px){
+    .logo_email img{
+        width:25vh;
+        margin-right: 0px;
+        height: auto;
+    }
+    .logo_email{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
