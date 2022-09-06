@@ -9,7 +9,7 @@ import Footer from './footer';
         }]) 
 
         useEffect(()=>{
-            fetch("/events").then(res=>{
+            fetch("http://5.196.8.40:3001/events").then(res=>{
                 if(res.ok){
                     return res.json()
                 }

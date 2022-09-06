@@ -27,7 +27,7 @@ import './CreateEvent.css';
                 content: input.content,
                 place: input.place
             }
-            axios.post('http://localhost:3001/create', newNote);
+            axios.post('5.196.8.40:3001/create333-er5ert', newNote);
         }
         return (<div>
             <h1>Create Note</h1>.

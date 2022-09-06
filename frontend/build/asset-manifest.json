@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "./static/css/main.632f3a33.css",
+    "main.js": "./static/js/main.04b426cf.js",
+    "static/media/stage_interieur.png": "./static/media/stage_interieur.60b1ec3b19c889847304.png",
+    "static/media/parc.jpg": "./static/media/parc.4da80e868b41e112cb1d.jpg",
+    "static/media/besoins.png": "./static/media/besoins.e641f117e6baf5ab0f7f.png",
+    "static/media/interieur.jpg": "./static/media/interieur.652e2a3d4bf6af945164.jpg",
+    "static/media/village_ciel.png": "./static/media/village_ciel.76e8362331f3dbf422ae.png",
+    "static/media/secours.png": "./static/media/secours.bcab801134c48f930f0a.png",
+    "static/media/interieur_long.png": "./static/media/interieur_long.8b8a6b1df4acf01c2f04.png",
+    "static/media/preau.png": "./static/media/preau.6702a387a1a6c952c869.png",
+    "static/media/Bamba.jpg": "./static/media/Bamba.4f30f5b8f7f5b5c06dea.jpg",
+    "static/media/dauphins_entrainement.png": "./static/media/dauphins_entrainement.45d8b3478e9222f6494a.png",
+    "static/media/conversation.png": "./static/media/conversation.6753064cc72e741bddba.png",
+    "static/media/jambe_danseurs.png": "./static/media/jambe_danseurs.908eda9dcba2571ce147.png",
+    "static/media/logo1.svg": "./static/media/logo1.5527a4b27a75ca82f591762857c3c9b3.svg",
+    "static/media/parc_dos.png": "./static/media/parc_dos.083a0f42b9261675dc8b.png",
+    "static/media/logo_dauphins.png": "./static/media/logo_dauphins.46371b4125fa9d2fa3a3.png",
+    "static/media/logo.jpg": "./static/media/logo.ad6f8b78dcfc1a56daae.jpg",
+    "static/media/Title.svg": "./static/media/Title.4160de4c88ccd55183e6.svg",
+    "static/media/Mobile_Title.svg": "./static/media/Mobile_Title.1b44da5dedd6ace8a702.svg",
+    "static/media/insta.svg": "./static/media/insta.f7f81aaa1c5c658770f0.svg",
+    "static/media/Background_home.svg": "./static/media/Background_home.fe558c5445e6d3722c86.svg",
+    "static/media/mobile_background.svg": "./static/media/mobile_background.e3aa1dd4dba0e4625519.svg",
+    "static/media/fb.svg": "./static/media/fb.55713a62b3ce32dc5188.svg",
+    "index.html": "./index.html",
+    "main.632f3a33.css.map": "./static/css/main.632f3a33.css.map",
+    "main.04b426cf.js.map": "./static/js/main.04b426cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.632f3a33.css",
+    "static/js/main.04b426cf.js"
+  ]
+}
