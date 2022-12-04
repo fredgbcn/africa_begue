@@ -16,6 +16,7 @@ router.route(process.env.REACT_APP_CREATE).post((req, res) =>{
     });
 
     newEvent.save();
+    res.sendStatus(200);
 })
 // ENVOYER CONTENU MONGO VERS LA PAGE NOTE DU SITE
 router.route("/events").get((req, res) =>{
@@ -23,4 +24,4 @@ router.route("/events").get((req, res) =>{
    .then(foundEvents=> res.json(foundEvents)) 
 })
 
- module.exports = router;
+ module.exports = router

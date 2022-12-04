@@ -14,12 +14,12 @@ import Footer from './footer';
                     return res.json()
                 }
             }).then(jsonRes => setNotes(jsonRes));
-        })
+        },[])
         return <div className="body_events">
             <h1>NOS STAGES</h1>
             <p>Vous trouverez dans cette section tous nos stages à venir </p>
             <div className="banniere_longue"></div>
-            {events.reverse().map(event =>
+            {events.map(event =>
             <div className="events_list">
                 <p key={"date" + event._id} className="p1">{event.date}</p>
                 <div className="content_buttons">
